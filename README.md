@@ -20,5 +20,5 @@
   <li>For more details watch the video...</li>
 </ul>
 <a href="https://youtu.be/2EqMj_n7xVo" target="_blank">
- <img src="https://youtu.be/2EqMj_n7xVo.jpg" alt="Watch the video" width="240" height="180" border="10" />
+ <img src="thumbnail.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
