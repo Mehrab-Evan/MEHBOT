@@ -19,3 +19,4 @@
   <li>$ python app.py</li>
   <li>For more details watch the video...</li>
 </ul>
+<video src="https://youtu.be/2EqMj_n7xVo.mp4"/>
