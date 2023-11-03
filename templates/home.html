@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MEHBOT</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/chat_icon_main.png') }}">
+</head>
+<body>
+<div>
+    <h1>This Chatbot Could be integrated to any website.</h1>
+</div>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://avatars.githubusercontent.com/u/73308898?v=4.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">MEHBOT</h4>
+                    <p class="chatbox__description--header">Hi I am Mehrab Evan Bot. Ask me about Mehrab Evan.😋</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button" id="loading"></button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chat_icon_main.png') }}" height="40" width="40"/></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
